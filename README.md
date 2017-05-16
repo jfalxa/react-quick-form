@@ -57,7 +57,7 @@ export default withForm( rules )( MyForm );
 
 ## Usage
 
-The can receive 4 props that will dictate its behaviour:
+The wrapped component can receive 4 props that will dictate its behaviour:
 - `fields`: the current list of values (indexed by field name)
 - `errors`: the current list of errors (indexed by field name)
 - `onChange( field, value, errors )`: a callback called any time one field changes
