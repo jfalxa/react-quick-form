@@ -1,6 +1,6 @@
 import React from 'react';
 
-import withForm from '../src/withForm';
+import withForm from '../src';
 
 
 const rules =

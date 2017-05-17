@@ -8,7 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4",
-    "styled-components": "^1.4.6"
+    "styled-components": "^1.4.6",
+    "validation-chain": "^0.1.4"
   },
   "ava": {
     "babel": "inherit",
@@ -18,11 +19,9 @@
   },
   "scripts": {
     "build": "react-lib build",
-    "clean": "react-lib clean",
     "coverage": "react-lib coverage",
     "docs": "react-lib docs",
     "start": "react-lib start",
-    "test": "react-lib test",
-    "prepublish": "yarn clean && yarn build"
+    "test": "react-lib test"
   }
 }

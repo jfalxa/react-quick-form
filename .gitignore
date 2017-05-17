@@ -8,6 +8,7 @@ coverage
 
 # yarn files
 yarn.lock
+.yarnclean
 
 # build results
 lib

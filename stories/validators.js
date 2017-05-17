@@ -1,9 +1,9 @@
-import validation from '../src/validation';
+import validation from 'validation-chain';
 
 
 function isEmail( value='' )
 {
-    return /[\w\-\.]+\@[\w\-]+\.[\w]+/.test( value );
+    return /^[\w\-\.]+\@[\w\-]+\.[\w]+$/.test( value );
 }
 
 
@@ -21,13 +21,13 @@ function isZero( value )
 
 function isPixel( value )
 {
-    return /[0-9\.]+px$/.test( value );
+    return /^[0-9\.]+px$/.test( value );
 }
 
 
 function isPercent( value )
 {
-    return /[0-9]+%$/.test( value );
+    return /^[0-9]+%$/.test( value );
 }
 
 
